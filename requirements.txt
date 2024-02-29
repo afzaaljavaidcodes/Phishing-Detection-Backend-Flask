@@ -6,4 +6,3 @@ pickleshare==0.7.5
 beautifulsoup4==4.11.1
 whois==1.20240129.2
 uvicorn==0.27.1
-xgboost==2.0.3
