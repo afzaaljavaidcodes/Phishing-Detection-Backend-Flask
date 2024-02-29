@@ -346,7 +346,3 @@ def phishing():
     prediction = model.predict([features])
     return jsonify({'result': int(prediction),'features':features})
 
-if __name__ == '__main__':
-  app.run(debug=False,host="0.0.0.0")
-    # app.run(debug=True)
-    # app.run(host='localhost', port=5000)
