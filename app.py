@@ -13,7 +13,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-model = pickle.load(open('../Phishing Detection Trained Model.pickle.dat', 'rb'))
+model = pickle.load(open('Phishing Detection Trained Model.pickle.dat', 'rb'))
 
 cors = CORS(app)
 cors = CORS(app, recources={r'/recommendation/*':{'origins': 'http://localhost:5173'}})
